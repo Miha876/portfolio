@@ -8,7 +8,7 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router basename={import.meta.env.BASE_URL}>
       <div className="relative bg-background min-h-screen text-foreground flex flex-col">
         <div className="noise-overlay"></div>
         <Navbar />

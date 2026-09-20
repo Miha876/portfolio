@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Link } from 'react-router-dom';
+import gorizontLogo from '../assets/gorizont-logo.png';
 
 const projects = [
   {
@@ -9,7 +10,7 @@ const projects = [
     status: 'v1.0 beta',
     description: 'Сайт-каталог для компании по продаже теплообменников и комплектующих. Каталог товаров, корзина, оформление заявок, калькулятор стоимости, админ-панель и Telegram-интеграция для получения заказов.',
     date: 'Апрель 2026',
-    img: '/gorizont-logo.png'
+    img: gorizontLogo
   }
 ];
 

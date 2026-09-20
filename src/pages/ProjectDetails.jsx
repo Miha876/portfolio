@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, ExternalLink } from 'lucide-react';
+import gorizontLogo from '../assets/gorizont-logo.png';
 
 const projectsData = {
   'gorizont': {
@@ -13,7 +14,7 @@ const projectsData = {
     description: 'ГОРИЗОНТ — сайт-каталог для компании по продаже теплообменников и комплектующих. Проект включает каталог товаров, корзина, оформление заявок, калькулятор стоимости, админ-панель и Telegram-интеграция для получения заказов и сообщений поддержки.',
     perspectives: 'Доработка админ-панели, расширение каталога, улучшение дизайна, подключение стабильного домена и дальнейшая автоматизация обработки заявок.',
     images: [
-      '/gorizont-logo.png',
+      gorizontLogo,
       'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=2670&auto=format&fit=crop',
       'https://images.unsplash.com/photo-1542621334-a254cf47733d?q=80&w=2670&auto=format&fit=crop'
     ]
