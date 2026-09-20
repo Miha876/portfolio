@@ -44,14 +44,14 @@ export default function ProjectsPage() {
               transition={{ duration: 0.6, ease: "easeOut", delay: i * 0.1 }}
               className="group flex flex-col md:flex-row gap-8 items-center"
             >
-              <Link to={`/project/${p.id}`} className="w-full md:w-3/5 overflow-hidden rounded-sm relative aspect-video block bg-[#1e3c66]">
-                <div className="absolute inset-0 bg-black/60 group-hover:bg-black/20 transition-colors duration-700 z-10 flex items-center justify-center">
+              <Link to={`/project/${p.id}`} className="w-full md:w-3/5 overflow-hidden rounded-sm relative aspect-video block bg-neutral-900 border border-neutral-800">
+                <div className="absolute inset-0 bg-black/40 group-hover:bg-black/10 transition-colors duration-700 z-10 flex items-center justify-center">
                   <span className="opacity-0 group-hover:opacity-100 transition-opacity text-white border border-white px-6 py-2 rounded-full backdrop-blur-sm tracking-widest text-sm uppercase">Подробнее</span>
                 </div>
                 <img 
                   src={p.img} 
                   alt={p.title} 
-                  className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-700 ease-out grayscale opacity-70 group-hover:opacity-100 group-hover:grayscale-0 mix-blend-luminosity group-hover:mix-blend-normal"
+                  className="w-full h-full object-cover scale-105 group-hover:scale-100 transition-transform duration-700 ease-out"
                 />
               </Link>
               <div className="w-full md:w-2/5 flex flex-col gap-4">

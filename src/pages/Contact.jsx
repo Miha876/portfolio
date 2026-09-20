@@ -18,7 +18,7 @@ export default function Contact() {
         
         <div className="text-xl md:text-2xl font-heading font-light leading-relaxed mb-16 text-neutral-400">
           <span className="text-white font-medium">Могу разработать</span> для вас сайт под ключ, 
-          написать Telegram-бота любой сложности или создать парсер данных. <br /><br />
+          написать Telegram-бота, создать парсер данных или проги на Python. <br /><br />
           <span className="text-neutral-500 text-lg uppercase tracking-widest text-xs font-bold block mb-2">Немного обо мне:</span>
           <span className="text-white font-medium">15 y.o.</span> | Челябинск <br />
           web coder → python developer. <br />

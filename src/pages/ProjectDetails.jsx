@@ -10,7 +10,7 @@ const projectsData = {
     link: 'http://rimax74.ru/',
     date: 'Апрель 2026',
     author: 'wαspᴇl.py',
-    description: 'ГОРИЗОНТ — сайт-каталог для компании по продаже теплообменников и комплектующих. Проект включает каталог товаров, корзину, оформление заявок, калькулятор стоимости, админ-панель и Telegram-интеграцию для получения заказов и сообщений поддержки.',
+    description: 'ГОРИЗОНТ — сайт-каталог для компании по продаже теплообменников и комплектующих. Проект включает каталог товаров, корзина, оформление заявок, калькулятор стоимости, админ-панель и Telegram-интеграция для получения заказов и сообщений поддержки.',
     perspectives: 'Доработка админ-панели, расширение каталога, улучшение дизайна, подключение стабильного домена и дальнейшая автоматизация обработки заявок.',
     images: [
       '/gorizont-logo.png',
@@ -75,7 +75,7 @@ export default function ProjectDetails() {
             transition={{ duration: 0.8 }}
             className="w-full rounded-sm overflow-hidden border border-neutral-900 bg-neutral-900"
           >
-            <img src={img} alt={`${project.title} скриншот ${i + 1}`} className="w-full h-auto object-cover grayscale opacity-80 hover:opacity-100 hover:grayscale-0 transition-all duration-700" />
+            <img src={img} alt={`${project.title} скриншот ${i + 1}`} className="w-full h-auto object-cover" />
           </motion.div>
         ))}
       </div>
