@@ -15,12 +15,12 @@ export default function Navbar() {
       initial={{ y: -100, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
-      className="fixed top-0 left-0 w-full z-40 px-6 py-6 mix-blend-difference flex justify-between items-center bg-background/50 backdrop-blur-md border-b border-neutral-900/50"
+      className="fixed top-0 left-0 w-full z-40 px-4 py-4 md:px-6 md:py-6 mix-blend-difference flex flex-col md:flex-row justify-between items-center bg-background/50 backdrop-blur-md border-b border-neutral-900/50 gap-4 md:gap-0"
     >
-      <Link to="/" className="text-xl font-heading font-bold uppercase tracking-widest cursor-pointer text-white">
+      <Link to="/" className="text-lg md:text-xl font-heading font-bold uppercase tracking-widest cursor-pointer text-white">
         wαspᴇl.py
       </Link>
-      <div className="flex gap-6 md:gap-8 text-xs md:text-sm tracking-wide font-medium font-heading">
+      <div className="flex gap-4 sm:gap-6 md:gap-8 text-[10px] sm:text-xs md:text-sm tracking-wide font-medium font-heading">
         <Link to="/" className={getLinkClass('/')}>Главная</Link>
         <Link to="/projects" className={getLinkClass('/projects')}>Проекты</Link>
         <Link to="/contact" className={getLinkClass('/contact')}>Услуги & Связь</Link>
